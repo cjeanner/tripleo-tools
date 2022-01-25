@@ -64,3 +64,15 @@ A container registry, accessible from the computer you're running this script.
 sudo ./container-create.sh <os> <release> <registry>
 sudo ./container-create.sh 9 wallaby 10.10.1.1:5000
 ```
+
+### build-oc-images
+Build OC images
+
+#### Dependencies
+A bunch of disk space.
+
+#### Usage
+```Bash
+sudo ./container-create.sh <os>
+sudo ./container-create.sh 9
+```
